@@ -1,4 +1,5 @@
 from distutils.core import setup
+from setuptools import setup # enable `setup.py develop`
 from distutils.dist import DistributionMetadata
 
 # Patch distutils if it can't cope with the "classifiers" keyword (prior to Python 2.3.0).
